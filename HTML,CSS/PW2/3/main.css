@@ -1,0 +1,48 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+}
+
+.home {
+    height: 200px;
+    width: 120px;
+    background-color: hotpink;
+}
+
+.about {
+    height: 200px;
+    width: 120px;
+    background-color: indigo;
+}
+
+.kabobs {
+    height: 80px;
+    width: 240px;
+    background-color: khaki;
+}
+ 
+.bottom {
+    display: flex;
+}
+
+.sish {
+    height: 90px;
+    width: 80px;
+    background-color: lawngreen;
+}
+
+.bbq {
+    height: 90px;
+    width: 80px;
+    background-color: lightcoral;
+}
+
+.sum {
+    height: 90px;
+    width: 80px;
+    background-color: lightsalmon;
+}

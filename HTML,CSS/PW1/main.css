@@ -1,0 +1,54 @@
+.item {
+    width: 300px;
+    text-align: justify;
+}
+
+.text {
+    padding: 5px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.rd {
+    background-color: red;
+}
+
+.gr {
+    background-color: green;
+}
+
+.cl {
+    background-color: grey;
+}
+
+.just {
+    text-align: justify;
+}
+
+li {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.mid {
+    text-align: center;
+}
+
+.left {
+    padding: 0;
+}

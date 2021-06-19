@@ -1,0 +1,251 @@
+@media screen and (max-width: 577px) {
+    .structure {
+        width: 576px;
+    }
+
+
+
+    .header {
+        justify-content: space-between;
+        align-items: center;
+        width: 576px;
+        height: 66px;
+        border-bottom: 2px solid silver;
+        padding: 0 33px;
+        box-sizing: border-box;
+    }
+
+    .youtube {
+        display: block;
+    }
+
+    .menubar {
+        display: block;
+        margin-left: 110px;
+    }
+
+    .rightside {
+        align-items: center;
+        column-gap: 55px;
+    }
+
+    .height20 {
+        height: 40px;
+    }
+
+    .rightside i {
+        font-size: 40px;
+    }
+
+    .blog {
+        width: 363px;
+        height: 80px;
+        margin-top: 36px;
+        margin-left: 64px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .blog h1 {
+        font-size: 64px;
+        font-weight: 700;
+        margin: 0;
+    }
+
+    .firstrow {
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .firstcolumn {
+        margin-left: 64px;
+    }
+
+    .category {
+        margin-left: 0px;
+    }
+
+    .nodisplay {
+        display: none;
+    }
+
+    .mobilecolumn {
+        display: flex;
+        margin-top: -20px;
+    }
+
+    .mobilecolumn a {
+        display: block;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: black;
+        width: 215px;
+        height: 45px;
+        border-radius: 20px;
+        margin-top: 22px;
+        padding-top: 12px;
+        text-align: center;
+    }
+
+    .mobilecolumnright {
+        margin-left: 22px;
+    }
+
+    .chooseall a {
+        text-decoration: none;
+        color: cornflowerblue;
+        text-align: center;
+    }
+
+    .firstmobilerow {
+        display: flex;
+        width: 576px;
+        height: 682px;
+        box-sizing: border-box;
+    }
+
+    .marginl64 {
+        margin-left: 64px;
+    }
+
+    .margint125 {
+        margin-top: 125px;
+    }
+
+    .marginl36 {
+        margin-left: 36px;
+    }
+
+    .pic {
+        width: 207px;
+        height: 203px;
+    }
+
+    .shorttext {
+        width: 207px;
+        height: 240px;
+        border-top: solid red 1px;
+        margin-top: 30px;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    .arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 207px;
+        height: 50px;
+        margin: 13px 0 0 0;
+        background-color: cornflowerblue;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .width150 {
+        width: 150px;
+    }
+
+    .arrow a {
+        color: white;
+    }
+
+    .arrow i {
+        font-size: 20px;
+        position: absolute;
+        top: auto;
+        left: 150px;
+    }
+
+    .secondmobilerow {
+        display: flex;
+        width: 576px;
+        height: 557px;
+    }
+
+    .margint65 {
+        margin-top: 65px;
+    }
+
+    .pagelowbar {
+        width: 576px;
+        height: 50px;
+        margin-top: 76px;
+    }
+
+    .pagelowbar i {
+        font-size: 25px;
+        color: silver;
+    }
+
+    .digitgap {
+        column-gap: 15px;
+    }
+
+    .media {
+        display: flex;
+        justify-content: center;
+        width: 576px;
+        height: 96px;
+        background-color: #DBE1D9;
+    }
+
+    .media i {
+        color: #16595A;
+    }
+
+    .pageend {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 576px;
+        height: 68px;
+        background-color: #16595A;
+    }
+
+    .inlinelow {
+        display: inline;
+        font-size: 18px;
+    }
+
+    .disclow::before {
+        content: '';
+        display: block;
+        align-items: center;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #30ABAE;
+        display: inline-block;
+        margin: 0 5px 2px 0;
+    }
+
+    .lowmenu {
+        display: block;
+        width: 406px;
+    }
+
+    .lowmenu a {
+        text-decoration: none;
+    }
+
+    .marginl67 {
+        margin-left: 67px;
+    }
+
+    .anothercolor {
+        color: #30ABAE;
+    }
+
+    .whitecolor {
+        color: white;
+    }
+
+    .silverblock {
+        width: 395px;
+        height: 510px;
+        background-color: #F2F5F1;
+        position: absolute;
+        top: 50px;
+    }
+}

@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+}
+
+.display {
+    display: flex;
+}
+
+.alignitems {
+    justify-content: center;
+    align-items: center;
+}
+
+.structure {
+    width: 1440px;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+    height: 66px;
+    border-bottom: 2px solid silver;
+    padding-left: 204.5px;
+    padding-right: 201px;
+    box-sizing: border-box;
+}
+
+.leftside {
+    align-items: center;
+    column-gap: 38px;
+}
+
+.textdecor {
+    text-decoration: none;
+    color: black;
+}
+
+.menuitem {
+    height: 15px;
+}
+
+.rightside {
+    align-items: center;
+    column-gap: 25px;
+}
+
+.youtube {
+    display: none;
+}
+
+.menubar {
+    display: none;
+}
+
+.colorblue {
+    color: cornflowerblue;
+}
+
+.colorsilver {
+    color: rgb(138, 133, 133);
+}
+
+.height20 {
+    height: 20px;
+}
+
+.rightside i {
+    font-size: 20px;
+}
+
+.mainpage {
+    position: relative;
+}
+
+.blog {
+    width: 151px;
+    height: 96px;
+    margin-top: 34px;
+    position: relative;
+    z-index: 2;
+}
+
+.marginl207 {
+    margin-left: 207px;
+}
+
+.blog h1 {
+    font-size: 72px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.firstrow {
+    margin-top: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.margint60 {
+    margin-top: 60px;
+}
+
+.acolumn a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 210px;
+    height: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-top: 16px;
+}
+
+.mobilecolumn {
+    display: none;
+}
+
+.silverborder {
+    border: solid 1px silver;
+}
+
+.silverback {
+    background-color: rgb(235, 229, 229);
+}
+
+.blueborder {
+    border: solid 1px cornflowerblue;
+}
+
+.chooseall {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.firstmobilerow {
+    display: none;
+}
+
+.secondmobilerow {
+    display: none;
+}
+
+.media {
+    display: none;
+}
+
+.left20 {
+    margin-left: 20px;
+}
+
+.pic {
+    width: 295px;
+    height: 187px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.textalign {
+    text-align: center;
+}
+
+.inline {
+    display: inline;
+    font-size: 12px;
+}
+
+.disc::before {
+    content: '';
+    display: block;
+    align-items: center;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: silver;
+    display: inline-block;
+    margin: 0 14px 2px 12px;
+}
+
+ul {
+    padding-left: 0;
+    margin: 2px 0 0 0;
+}
+
+.margint9 {
+    margin: 9px 0 0 0;
+}
+
+.shorttext {
+    width: 295px;
+    height: 240px;
+    border-top: solid red 1px;
+    margin-top: 30px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.shorttextstyle {
+    text-align: justify;
+    margin: 0 5px 0 5px;
+}
+
+.arrow {
+    width: 130px;
+    height: 20px;
+    margin: 50px 10px 10px 150px;
+    position: relative;
+}
+
+.arrow i {
+    font-size: 20px;
+    position: absolute;
+    top: 1px;
+    left: 105px;
+}
+
+.marginl160 {
+    margin-left: 160px;
+}
+
+.marginl70 {
+    margin-left: 70px;
+}
+
+.marginl97 {
+    margin-left: 97px;
+}
+
+.secondrow {
+    margin-top: 100px;
+}
+
+.pagelowbar {
+    width: 1440px;
+    height: 115px;
+    margin-top: 80px;
+}
+
+.pagelowbar a {
+    text-decoration: none;
+}
+
+.marginl55 {
+    margin-left: 55px;
+}
+
+.digitgap {
+    column-gap: 15px;
+}
+
+span {
+    font-weight: 1000;
+}
+
+.pageend {
+    width: 1440px;
+    height: 90px;
+    background-color: #16595A;
+}
+
+.silverblock {
+    width: 693px;
+    height: 656px;
+    background-color: #F2F5F1;
+    position: absolute;
+    top: 50px;
+}
+
+.lowmenu {
+    display: none;
+}

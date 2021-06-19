@@ -1,0 +1,127 @@
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 120px;
+    width: 600px;
+    background-color: blue;
+}
+
+.nav {
+    height: 40px;
+    width: 600px;
+    background-color: aqua;
+}
+
+.sectionleft {
+    height: 600px;
+    width: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: blueviolet;
+}
+
+.headerleft {
+    height: 40px;
+    width: 200px;
+    background-color: chartreuse;
+}
+
+.navleft {
+    height: 520px;
+    width: 200px;
+    background-color: coral;
+}
+
+.footerleft {
+    height: 40px;
+    width: 200px;
+    background-color: cornflowerblue;
+}
+
+.middle {
+    display: flex;
+}
+
+.sectionright {
+    height: 600px;
+    width: 400px;
+}
+
+.headerright1 {
+    height: 40px;
+    width: 400px;
+    background-color: crimson;
+}
+
+.headerright2 {
+    height: 30px;
+    width: 400px;
+    background-color: cyan;
+}
+
+.p1 {
+    height: 30px;
+    width: 400px;
+    background-color: darkgoldenrod;
+}
+
+.p2 {
+    height: 30px;
+    width: 400px;
+    background-color: darkred;
+}
+
+.footerright1 {
+    height: 30px;
+    width: 400px;
+    background-color: darkslateblue;
+}
+
+.headerright3 {
+    height: 30px;
+    width: 400px;
+    background-color: deeppink;
+}
+
+.paside {
+    display: flex;
+}
+
+.p3 {
+    height: 300px;
+    width: 200px;
+    background-color: dimgray;
+}
+
+.aside {
+    height: 300px;
+    width: 200px;
+    background-color: gainsboro;
+}
+
+.footerright2 {
+    height: 30px;
+    width: 400px;
+    background-color: gold;
+}
+
+.footerright3 {
+    height: 80px;
+    width: 400px;
+    background-color: green;
+}
+
+.footer {
+    height: 100px;
+    width: 600px;
+    background-color: greenyellow;
+}
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let productList = localStorage.getItem('product');
+        let arr = JSON.parse(productList);
+        document.write(`<div id = 'items'>
+        <div id = 'name'><h2>${arr[0]}</h2> <button id = 'deleteOne'>Delete</button></div>
+        <div id = 'amount'><p>${arr[1]}</p><button id = 'deleteTwo'>Delete</button></div>
+        <div id = 'price'><h3>${arr[2]}</h3><button id = 'deleteThree'>Delete</button></div>
+        <div id = 'pic'><img src = '${arr[3]}' alt = ''><button id = 'deleteFour'>Delete</button></div></div>`);
+        let deleteBtnOne = document.getElementById('deleteOne');
+        deleteBtnOne.onclick = () => {
+            let deletedName = document.getElementById('name');
+            deletedName.remove();
+        }
+        let deleteBtnTwo = document.getElementById('deleteTwo');
+        deleteBtnTwo.onclick = () => {
+            let deletedAmount = document.getElementById('amount');
+            deletedAmount.remove();
+        }
+        let deleteBtnThree = document.getElementById('deleteThree');
+        deleteBtnThree.onclick = () => {
+            let deletedPrice = document.getElementById('price');
+            deletedPrice.remove();
+        }
+        let deleteBtnFour = document.getElementById('deleteFour');
+        deleteBtnFour.onclick = () => {
+            let deletedPic = document.getElementById('pic');
+            deletedPic.remove();
+        }
+    </script>
+
+    <button id='btn'>Delete all</button>
+
+    <script>
+        let deleteBtn = document.getElementById('btn');
+        console.log(deleteBtn);
+        deleteBtn.onclick = () => {
+            let deleted = document.getElementById('items');
+            deleted.remove();
+            localStorage.removeItem('product');
+        }
+    </script>
+
+</body>
+
+</html>

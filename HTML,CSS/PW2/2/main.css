@@ -1,0 +1,153 @@
+
+body {
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 600px;
+    background-color: blue;
+}
+
+.middle {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.hero img {
+    height: 190px;
+    width: 190px;
+    padding: 0;
+}
+
+.sidebar {
+    height: 250px;
+    width: 200px;
+    background-color: cadetblue;
+}
+
+.sidebar img {
+    height: 170px;
+    width: 190px;
+    padding-top: 5px;
+}
+
+.jpn {
+    text-align: center;
+}
+
+.sidebar p {
+    text-align: justify;
+    padding: 5px;
+    margin-top: 2px;
+}
+
+.main {
+    display: flex;
+    height: 300px;
+    width: 400px;
+    background-color: chartreuse;
+}
+
+
+
+.main p {
+    text-align: justify;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.main img {
+   height: 100%;
+   width: 100%;
+}
+
+.mount {
+    height: 150px;
+    width: 390px;
+    margin: 5px 5px 0 5px;
+    }
+
+.extra {display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 400px;
+    background-color: coral;
+}
+
+.extra1 {
+    height: 140px;
+    width: 390px;
+}
+
+.extra img {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.low {
+    display: flex;
+}
+
+.relatedi {
+    height: 120px;
+    width: 450px;
+    background-color: crimson;
+}
+
+.relatedi p {
+    text-align: justify;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.relatedp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 150px;
+    background-color: cyan;
+}
+
+.relatedp1 {
+    height: 110px;
+    width: 140px;
+}
+
+.relatedp img {
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 600px;
+    background-color: darkgoldenrod;
+}
+
+.footer p {
+    text-align: justify;
+    padding: 0 5px;
+}
